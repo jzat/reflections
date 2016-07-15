@@ -2,8 +2,8 @@ What happens when you initialize a repository? Why do you need to do it?
     
     When I initialize a directory, a hidden directory ".git" is created which, which will contain the metadata about the repository's histiry. I need it to be able to follow this history, all the changes made to the files in that repository.
 
-How is the staging area different from the working directory and the repository?
-What value do you think it offers?
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+    Staging area contains some of the files from the working directory that were put there manually. It's an intermediate between working directory and repository. Repository contains committed content from the staging area. Staging area offers the opportunity to control what to be committed, it's important because it lets us to stick to the "one commit per one small change" rule.
 
 How can you use the staging area to make sure you have one commit per logical
 change?
