@@ -17,5 +17,6 @@ How do the diagrams help you visualize the branch structure?
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
     New brach contain all the changes made in 2 branches since the commit after which they separated. It has 2 parents.
 
-What are the pros and cons of Gitâ€™s automatic merging vs. always doing merges
-manually?
+What are the pros and cons of Git's automatic merging vs. always doing merges manually?
+    Pros of automatic: saves time
+    Cons of automatic: conflicts require human interaction
